@@ -10,9 +10,9 @@ function Main() {
 switch(start){
     case 'menu':
         return (
-            <div className="menu-area">
-              <div style={{ padding: "10px" }}>
-                <div style={{ textAlign: "center", marginBottom: '50px' }}>
+            <div className="menu-area menu-background">
+                <div style={{width: '100%', height: '100%', backgroundColor: '#fff', position: 'absolute', opacity: 0.7}}/>
+            <div className="meio-titulo" style={{ textAlign: "center" }}>
                   <p>Ajude </p>
                   <p>a Floresta</p>
                 </div>
@@ -21,7 +21,7 @@ switch(start){
                   <div className="menu-inicar"  style={{marginBottom: '15px'}} onClick={()=>setStart('instrucoes')}>Instrucoes</div>
                   <div className="menu-inicar" onClick={()=>setStart('ranking')}>Ranking</div>
                 </div>
-              </div>
+
             </div>
           );
     case 'game':

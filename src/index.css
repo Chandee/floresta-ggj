@@ -16,7 +16,16 @@ html {
   background-image: url("./images/grama-nova.png");
   background-repeat: repeat;
 }
+.menu-background{
+  background-size: cover;
+  background-position: -86px;
+  background-image: url('./images/floresta-fundo.png');
+}
 
+.menu-background::before{
+  background: rgba(0,0,0,0.7);
+
+}
 .menu-area {
   position: relative;
   margin: 100px auto;
@@ -51,6 +60,14 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.meio-titulo {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .meio-gameover {
   position: absolute;
