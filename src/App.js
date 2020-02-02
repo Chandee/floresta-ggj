@@ -185,18 +185,17 @@ function App(props) {
       };
       let verifyVidaArvore = editArvore.findIndex(arvore => {
         if (arvore.vida === 9) {
+          setPontos(pontos => pontos + 15);
           return true;
         } else {
           return false;
         }
       });
       if (verifyVidaArvore !== -1) {
-        setPontos(pontos => pontos + 15);
         editArvore.splice(verifyVidaArvore, 1);
         //adicionar no placar
       }
     }
-    console.log("final arvore", editArvore);
     setMoveArvore(editArvore);
   };
 

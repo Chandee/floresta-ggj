@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from "react";
 function GameOver(props) {
   const [value, setValue] = useState('')
   const callRank = () =>{
-      fetch('http://dreamlo.com/lb/0shzCv1upEmV2DGgYX4YxAFat8tbfTlEyiguROdQSeiQ/add/' + value +'/' + props.score, {method: 'get'})
+      fetch('http://dreamlo.com/lb/W4plcXvGfUq8gabf5-QllAz--5ZT8dkUmgrxA7qQHiCA/add/' + value +'/' + props.score, {method: 'get'})
   }
 
   return (
@@ -15,7 +15,7 @@ function GameOver(props) {
           {console.log("meus props", props)}
           <div style={{margin: '10px 0'}}>{props.score}</div>
         </div>
-       {props.socre > 0 && <div>
+       {props.score > 0 && <div>
             <input value={value} onChange={e =>{setValue(e.target.value)}} maxLength="4" placeholder="Insira seu nome" className="meu-input"></input>
         </div>}
         <div style={{ textAlign: "center" }}>
