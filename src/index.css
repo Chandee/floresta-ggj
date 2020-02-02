@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "nos";
+  src: url(./fonts/type_writer.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-family: "nos";
+}
+
+.game-area {
+  position: relative;
+  margin: 100px auto;
+  width: 256px;
+  height: 256px;
+  border: 2px solid #000;
+  background-image: url("./images/grama-nova.png");
+  background-repeat: repeat;
+}
+
+.menu-area {
+  position: relative;
+  margin: 100px auto;
+  width: 256px;
+  height: 256px;
+  border: 2px solid #000;
+}
+
+.char-animate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(144px / 4);
+  height: 46px;
+  background: url(./images/player-sheet.png);
+  animation: animate 1s steps(4) infinite;
+}
+
+@keyframes animate {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 144px;
+  }
+}
+
+.meio {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.meio-gameover {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu-inicar:hover {
+  color: #999;
+  cursor: pointer;
+}
+
+.enemy-animate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100px / 2);
+  height: 50px;
+  background: url(./images/lenhador-sheet.png);
+  animation: animate2 1s steps(2) infinite;
+}
+
+@keyframes animate2 {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 100px;
+  }
+}
+.character {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+
+  z-index: 1;
+}
+
+.enemy {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+
+  z-index: 2;
+}
+
+.meu-input {
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "nos";
+  padding: 5px 0;
+  border-style: solid;
+}
+
+.meu-input:focus::placeholder{
+  color: transparent
+}
+.arvore {
+  position: absolute;
+  width: 32px;
+  height: 32px;
 }
