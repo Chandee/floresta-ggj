@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Chandee/floresta-ggj/static/css/main.7f88a147.chunk.css",
+    "main.js": "/Chandee/floresta-ggj/static/js/main.155170b8.chunk.js",
+    "main.js.map": "/Chandee/floresta-ggj/static/js/main.155170b8.chunk.js.map",
+    "runtime-main.js": "/Chandee/floresta-ggj/static/js/runtime-main.8548ca29.js",
+    "runtime-main.js.map": "/Chandee/floresta-ggj/static/js/runtime-main.8548ca29.js.map",
+    "static/js/2.01427968.chunk.js": "/Chandee/floresta-ggj/static/js/2.01427968.chunk.js",
+    "static/js/2.01427968.chunk.js.map": "/Chandee/floresta-ggj/static/js/2.01427968.chunk.js.map",
+    "index.html": "/Chandee/floresta-ggj/index.html",
+    "precache-manifest.cc775cb45ed24b027a36dc78b2cc18a7.js": "/Chandee/floresta-ggj/precache-manifest.cc775cb45ed24b027a36dc78b2cc18a7.js",
+    "service-worker.js": "/Chandee/floresta-ggj/service-worker.js",
+    "static/css/main.7f88a147.chunk.css.map": "/Chandee/floresta-ggj/static/css/main.7f88a147.chunk.css.map",
+    "static/js/2.01427968.chunk.js.LICENSE.txt": "/Chandee/floresta-ggj/static/js/2.01427968.chunk.js.LICENSE.txt",
+    "static/media/type_writer.ttf": "/Chandee/floresta-ggj/static/media/type_writer.30d764d0.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8548ca29.js",
+    "static/js/2.01427968.chunk.js",
+    "static/css/main.7f88a147.chunk.css",
+    "static/js/main.155170b8.chunk.js"
+  ]
+}
