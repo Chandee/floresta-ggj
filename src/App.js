@@ -191,6 +191,7 @@ function App(props) {
         }
       });
       if (verifyVidaArvore !== -1) {
+        setPontos(pontos => pontos + 15);
         editArvore.splice(verifyVidaArvore, 1);
         //adicionar no placar
       }
