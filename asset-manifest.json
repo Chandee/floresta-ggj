@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/floresta-ggj/static/css/main.d9875ccd.chunk.css",
-    "main.js": "/floresta-ggj/static/js/main.477114b1.chunk.js",
-    "main.js.map": "/floresta-ggj/static/js/main.477114b1.chunk.js.map",
+    "main.js": "/floresta-ggj/static/js/main.5ab5efa4.chunk.js",
+    "main.js.map": "/floresta-ggj/static/js/main.5ab5efa4.chunk.js.map",
     "runtime-main.js": "/floresta-ggj/static/js/runtime-main.36cfe07a.js",
     "runtime-main.js.map": "/floresta-ggj/static/js/runtime-main.36cfe07a.js.map",
     "static/js/2.01427968.chunk.js": "/floresta-ggj/static/js/2.01427968.chunk.js",
     "static/js/2.01427968.chunk.js.map": "/floresta-ggj/static/js/2.01427968.chunk.js.map",
     "index.html": "/floresta-ggj/index.html",
-    "precache-manifest.2b0f50fbeac0f57f87c342960e721df1.js": "/floresta-ggj/precache-manifest.2b0f50fbeac0f57f87c342960e721df1.js",
+    "precache-manifest.c61676c1e75bff26a229947870a394e2.js": "/floresta-ggj/precache-manifest.c61676c1e75bff26a229947870a394e2.js",
     "service-worker.js": "/floresta-ggj/service-worker.js",
     "static/css/main.d9875ccd.chunk.css.map": "/floresta-ggj/static/css/main.d9875ccd.chunk.css.map",
     "static/js/2.01427968.chunk.js.LICENSE.txt": "/floresta-ggj/static/js/2.01427968.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.36cfe07a.js",
     "static/js/2.01427968.chunk.js",
     "static/css/main.d9875ccd.chunk.css",
-    "static/js/main.477114b1.chunk.js"
+    "static/js/main.5ab5efa4.chunk.js"
   ]
 }
