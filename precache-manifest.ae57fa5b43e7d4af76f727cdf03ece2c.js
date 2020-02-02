@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81461efbf0527bb6003006d6da6fd676",
+    "revision": "f7529edfef3117032c47e5cf8117ef6f",
     "url": "/floresta-ggj/index.html"
   },
   {
-    "revision": "3d242d49f6d66eed8f29",
+    "revision": "b49d0d59c3534a019452",
     "url": "/floresta-ggj/static/css/main.d9875ccd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/floresta-ggj/static/js/2.01427968.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d242d49f6d66eed8f29",
-    "url": "/floresta-ggj/static/js/main.8c548f73.chunk.js"
+    "revision": "b49d0d59c3534a019452",
+    "url": "/floresta-ggj/static/js/main.4f62d3e3.chunk.js"
   },
   {
     "revision": "194c8a12002362922ace",

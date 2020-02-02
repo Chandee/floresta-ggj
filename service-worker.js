@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/floresta-ggj/precache-manifest.6edca5f098f1fcc4eba4fb618e250926.js"
+  "/floresta-ggj/precache-manifest.ae57fa5b43e7d4af76f727cdf03ece2c.js"
 );
 
 self.addEventListener('message', (event) => {
