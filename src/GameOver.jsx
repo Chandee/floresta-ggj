@@ -3,7 +3,7 @@ import React, { useRef, useEffect, useState } from "react";
 function GameOver(props) {
   const [value, setValue] = useState('')
   const callRank = () =>{
-      fetch('http://dreamlo.com/lb/W4plcXvGfUq8gabf5-QllAz--5ZT8dkUmgrxA7qQHiCA/add/' + value +'/' + props.score, {method: 'get'})
+      fetch('http://dreamlo.com/lb/CizivMVA6U6Uh_FwaiExgQ_1zJDLFx_keUt97VPFEU6Q/add/' + value +'/' + props.score, {method: 'get'})
   }
 
   return (

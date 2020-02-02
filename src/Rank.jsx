@@ -4,7 +4,7 @@ function Rank(props) {
   const [ranking, setRanking] = useState([])
   const [loading, setLoading] = useState(true)
   const callRank = () =>{
-      fetch('http://dreamlo.com/lb/5e36cfd7fe22df1a240a7c92/json/5', {method: 'get'}).then(response=>{
+      fetch('http://dreamlo.com/lb/5e3715b0fe232612b8e7f316/json/5', {method: 'get'}).then(response=>{
           response.json().then(res=>{
             setLoading(false)
             setRanking(res.dreamlo.leaderboard.entry)

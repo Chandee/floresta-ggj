@@ -10,7 +10,7 @@ function App(props) {
   const [tempo, setTempo] = useState(20);
   const [test, setTest] = useState(1);
   const [pontos, setPontos] = useState(0);
-  const speed = 40;
+  const speed = 50;
   const changePlayerPosition = x => {
     setMovePlayer([x, 1]);
   };
