@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/floresta-ggj/static/css/main.d9875ccd.chunk.css",
-    "main.js": "/floresta-ggj/static/js/main.5ab5efa4.chunk.js",
-    "main.js.map": "/floresta-ggj/static/js/main.5ab5efa4.chunk.js.map",
+    "main.css": "/floresta-ggj/static/css/main.bad2add7.chunk.css",
+    "main.js": "/floresta-ggj/static/js/main.76128cfb.chunk.js",
+    "main.js.map": "/floresta-ggj/static/js/main.76128cfb.chunk.js.map",
     "runtime-main.js": "/floresta-ggj/static/js/runtime-main.36cfe07a.js",
     "runtime-main.js.map": "/floresta-ggj/static/js/runtime-main.36cfe07a.js.map",
     "static/js/2.01427968.chunk.js": "/floresta-ggj/static/js/2.01427968.chunk.js",
     "static/js/2.01427968.chunk.js.map": "/floresta-ggj/static/js/2.01427968.chunk.js.map",
     "index.html": "/floresta-ggj/index.html",
-    "precache-manifest.c61676c1e75bff26a229947870a394e2.js": "/floresta-ggj/precache-manifest.c61676c1e75bff26a229947870a394e2.js",
+    "precache-manifest.84647564848bf1888738d2e031c0d120.js": "/floresta-ggj/precache-manifest.84647564848bf1888738d2e031c0d120.js",
     "service-worker.js": "/floresta-ggj/service-worker.js",
-    "static/css/main.d9875ccd.chunk.css.map": "/floresta-ggj/static/css/main.d9875ccd.chunk.css.map",
+    "static/css/main.bad2add7.chunk.css.map": "/floresta-ggj/static/css/main.bad2add7.chunk.css.map",
     "static/js/2.01427968.chunk.js.LICENSE.txt": "/floresta-ggj/static/js/2.01427968.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/floresta-ggj/static/media/floresta-fundo.7bacfbd5.png",
     "static/media/type_writer.ttf": "/floresta-ggj/static/media/type_writer.30d764d0.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.36cfe07a.js",
     "static/js/2.01427968.chunk.js",
-    "static/css/main.d9875ccd.chunk.css",
-    "static/js/main.5ab5efa4.chunk.js"
+    "static/css/main.bad2add7.chunk.css",
+    "static/js/main.76128cfb.chunk.js"
   ]
 }
